@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>E-Shop</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload"  %>
+
+    
+  </head><p class="navbar-text float-right">
+
+<strong> Welcome to the E-Shop</strong>
+
+</p>
+
+<body style="background: #EEEEE0;">
+
+  <body><% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
+    <%= yield %>
+  </body>
+  
+</html>
