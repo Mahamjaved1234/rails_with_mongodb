@@ -35,17 +35,17 @@ end
   # GET /companies/id?/products/1 or /companies/id?/products/1.json
   def show
     storage = Google::Cloud::Storage.new(
-      project_id: "railsproject-a0c97",
+      project_id: "your project id",
     credentials: "keyfile.json"
     )
-    bucket = storage.bucket "railsproject-a0c97.appspot.com"
+    bucket = storage.bucket "project_id.com"
     
    
       @product = Product.find(params[:id])
       if (file = bucket.file "#{@product.id}.jpg")
-        @url = "https://firebasestorage.googleapis.com/v0/b/railsproject-a0c97.appspot.com/o/#{@product.id}.jpg?alt=media"
+        @url = "link to photo#{@product.id}.jpg?alt=media"
       else
-        @url = "https://firebasestorage.googleapis.com/v0/b/railsproject-a0c97.appspot.com/o/no.jpg?alt=media"
+        @url = "default photo link"
       end
   end
   def new
@@ -67,11 +67,11 @@ end
           if @product.save
             file_data = product_params_image[:image].tempfile.path
     storage = Google::Cloud::Storage.new(
-      project_id: "railsproject-a0c97",
+      project_id: "your project id",
       credentials: "keyfile.json"
      )
     
-     bucket = storage.bucket "railsproject-a0c97.appspot.com"
+     bucket = storage.bucket "your project id.com"
     
     file = bucket.create_file file_data , "#{@product.id}.jpg"
               format.html { redirect_to product_url(@product), notice: "Product was successfully created." }
@@ -97,10 +97,10 @@ def update
       if @product.update(product_params)
         file_data = product_params_image[:image].tempfile.path
         storage = Google::Cloud::Storage.new(
-          project_id: "railsproject-a0c97",
-          credentials: "eshop/keyfile.json"
+          project_id: "your project_id",
+          credentials: "keyfile.json"
         )
-        bucket = storage.bucket "railsproject-a0c97.appspot.com"
+        bucket = storage.bucket "your project_id.com"
     
         file = bucket.create_file file_data , "#{@product.id}.jpg"
         format.html { redirect_to product_url(@product), notice: "Product was updated successfully." }
