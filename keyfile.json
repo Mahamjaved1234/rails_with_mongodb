@@ -1,13 +1,12 @@
 
 {
-  "type": "service_account",
-  "project_id": "railsproject-a0c97",
-  "private_key_id": "32251fa878b6974bb6b38d561247c14809600da4",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDd9fW/GcsqnIiR\nuDQOo83e5sbcvUUTx4Od0SGIOn/t9sKKgLWFVDLuSJgRpg9qHqjBkyluUNJRxp4r\nHnfV/r0u1kylsgK3nScNUb70nT3E0msvfXAxoMnCs7sCNbk0242UuLRsFVVWCdRe\nlJTs0kcR632Q3DHLo5RUx8SKh1WhgEkiNZM24VytUJk7U+3Jk+eu9mMPTjcYwQTh\neHHsGWP00d7X0ZKQVR1jGeHcrIHTLJRChzTWyE7YzvYSRDl45d3VuEAej+rnu5+2\nmJ90TfJuDLYPHRHG9VN2Ym6/sCmNrpy113UJgWC2wiOnnd4TSNYId2vZztmbPwsC\nNnY3CwNpAgMBAAECggEACFHWVsXoPB4m7lNZvCy+pDrBPHfptW6Wi91RZPJQZkKI\nEzn0090Olajp7ktrq34ftDXIaUalQ4Ru3E3ljwNf4vgMYm+UM36z/odQYYndTVnX\nw61vfaS5u08SVOhfm1AZc/giZyS7kKCIscze8iuFl3HcwIfIZAorHqxoPQsKliWP\neUX4/Yc1Rd6PsmJwIaPfZHm9Z51RzYSUL7oF+aocm2nBKG5iNmrctKYS02o9fDbg\ntV8MvcjXSSi6lPWHnVHlXFnNC156eI0/T9BXArJQLjABx0kdsjIukY+V10sffhmg\n7ooieMScoBBKr4wKXatE/siklyPI1AcUTcCzyziOCwKBgQDwrDkmV7q1icsuXipl\nhH13OHJ96zQMaywt2bBSfiW6urejX1xPMXTmIqtXAAVn7KzvqTykTI8f0FMnBcF1\nHg527yB/OqARf/oEIU6rtzpn7PXRNQ/zWJI2PSY/tBTq2y2Xqy6fq58QFXwR4nLX\ndustt38DPN/FAuMDLJrOdFrlTwKBgQDsGKsp3MkXDkdnU4jVboMUCqQBWIzcsPsN\nSy+V5oR9PxEoiVYWobiMwfCacWkNc54iJl6CfQgk31FebULgZ2XlE830j/2fQEnu\n192JVT8CxC7rLaQtj8zc82VpDXxribEcXi32/FTom1eadnakQ4KIKTLVVITJRLzq\nGViW1XZNxwKBgCQu8GSoWeTDM63j8GHU2nwbG3N88hVP45N9H/o3Bvsc6VEBnEI3\nwEh9O99XnHh0Z8ecXQaij/4LdwTt45j1DN2qs+sM6FXZNMB8NXSxlnFbedWbMau3\nTDwlU2POcjqg+yjLTrYoukBTypRxxCxKr67u4ISfGVFoTrMCeL/DVIsXAoGBAISj\n202ah7MXR5BKQv69ppCU5c0HxaObHoA6dFJ//oEq9GXUunPeiYMy1gy+mGmBQh8n\ndUNUIUYt3FXzhnXyQTGwra2vU6qrgJ3Z0tF7/fl85Gsl6i3asxqS969Mb1EvOzyX\nwLUY0E8aLt5NnZvtfaEnnDJz2GIG5yeR885RwLQzAoGBAN8+4Fd7dDFpqLxtbmRI\n1B6eRPepMV/Tx8bG9XUqeuNH9T8w47mpAIojsoauMi0BQUvocMe3gL6uzreM8lPP\nh1dGvjRh1mRaioSm/uXG4auY8pV+cd0xKgjM0ahWejF5o3jUIBE28pizE2wKMLuH\n5t4UV5X1UAIPHh121RgK0Xnx\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-r651e@railsproject-a0c97.iam.gserviceaccount.com",
-  "client_id": "114958357149307105199",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-r651e%40railsproject-a0c97.iam.gserviceaccount.com"
+  "type": "Your_account_type",
+  "project_id": "Your_project_id",
+  "private_key_id": "Your_key",\n-----END PRIVATE KEY-----\n",
+  "client_email": "",
+  "client_id": "",
+  "auth_uri": "",
+  "token_uri": "",
+  "auth_provider_x509_cert_url": "",
+  "client_x509_cert_url": ""
 }
