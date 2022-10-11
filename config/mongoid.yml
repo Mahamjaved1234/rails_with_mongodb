@@ -6,8 +6,7 @@ development:
       # Mongoid can connect to a URI accepted by the driver:
       # uri: mongodb://user:password@mongodb.domain.com:27017/eshop_development
       # uri: mongodb://131231:123123123@localhosasdfasdfat:2asdfasdfaf7017/eshoasfasfsadp_development
-      uri: mongodb://Maham:52671OUm7DIbENVX@ac-floui4c-shard-00-00.e4e1q1y.mongodb.net:27017,ac-floui4c-shard-00-01.e4e1q1y.mongodb.net:27017,ac-floui4c-shard-00-02.e4e1q1y.mongodb.net:27017/cart_app_development?ssl=true&replicaSet=atlas-jfgrk2-shard-0&authSource=admin&retryWrites=true&w=majority
-
+    
       # Otherwise define the parameters separately.
       # This defines the name of the default database that Mongoid can connect to.
       # (required).
@@ -189,7 +188,7 @@ test:
 production:
   clients:
     default:
-      uri: mongodb://Maham:52671OUm7DIbENVX@ac-floui4c-shard-00-00.e4e1q1y.mongodb.net:27017,ac-floui4c-shard-00-01.e4e1q1y.mongodb.net:27017,ac-floui4c-shard-00-02.e4e1q1y.mongodb.net:27017/cart_app_development?ssl=true&replicaSet=atlas-jfgrk2-shard-0&authSource=admin&retryWrites=true&w=majority
+     uri:"your databse link"
 
       # Otherwise define the parameters separately.
       # database: eshop_test
